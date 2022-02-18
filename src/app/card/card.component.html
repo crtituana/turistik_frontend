@@ -1,0 +1,49 @@
+<section class="dishes" id="dishes">
+
+  <h3 class="sub-heading"> Nuestros viajes </h3>
+  <h1 class="heading"> Tours populares </h1>
+
+  <div class="box-container" >
+      <div class="box" *ngFor="let item of Data">
+          <a href="#" class="fas fa-heart"></a>
+          <a href="#" class="fas fa-eye"></a>
+          <img src="{{item.img}}"  alt="">
+          <h3>{{item.title}}</h3>
+          <div class="valoracion">
+
+            <!-- Estrella 1 -->
+            <button>
+                <i class="fas fa-star"></i>
+            </button>
+        
+            <!-- Estrella 2 -->
+            <button>
+                <i class="fas fa-star"></i>
+            </button>
+        
+            <!-- Estrella 3 -->
+            <button>
+                <i class="fas fa-star"></i>
+            </button>
+        
+            <!-- Estrella 4 -->
+            <button>
+                <i class="fas fa-star"></i>
+            </button>
+        
+            <!-- Estrella 5 -->
+            <button>
+                <i class="fas fa-star"></i>
+            </button>
+        
+        </div>
+          <span>${{item.costo}}</span>
+          <a href="#" class="btn">Reservar</a>
+      </div>
+
+  </div>
+  
+
+</section>
+
+<!-- dishes section ends -->

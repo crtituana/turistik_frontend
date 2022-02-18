@@ -1,0 +1,46 @@
+<section class="dishes" id="dishes">
+
+    <h3 class="sub-heading"> Nuestros guias </h3>
+
+    <div class="box-container" >
+        <div class="box" *ngFor="let item of Data">
+            
+            <img src="{{item.img}}"  alt="">
+            <h3>{{item.title}}</h3>
+            <div class="valoracion">
+  
+              <!-- Estrella 1 -->
+              <button>
+                  <i class="fas fa-star"></i>
+              </button>
+          
+              <!-- Estrella 2 -->
+              <button>
+                  <i class="fas fa-star"></i>
+              </button>
+          
+              <!-- Estrella 3 -->
+              <button>
+                  <i class="fas fa-star"></i>
+              </button>
+          
+              <!-- Estrella 4 -->
+              <button>
+                  <i class="fas fa-star"></i>
+              </button>
+          
+              <!-- Estrella 5 -->
+              <button>
+                  <i class="fas fa-star"></i>
+              </button>
+          
+          </div>
+            <span>{{item.Experiencia}}</span>
+            
+        </div>
+  
+    </div>
+    
+  
+  </section>
+  
