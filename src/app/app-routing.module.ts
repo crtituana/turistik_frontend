@@ -5,6 +5,7 @@ import { UsuarioComponent } from './usuario/usuario.component';
 import { RegistroComponent } from './registro/registro.component';
 import { ReservaUserComponent } from './reserva-user/reserva-user.component';
 import { GuiaComponent } from './guia/guia.component';
+import { CotopaxiComponent } from './cotopaxi/cotopaxi.component';
 
 const routes: Routes = [
 {
@@ -27,8 +28,11 @@ const routes: Routes = [
 {
   path: 'guia',
   component:GuiaComponent
+},
+{
+  path: 'cotopaxi',
+  component:CotopaxiComponent
 }
- 
 
 ];
 

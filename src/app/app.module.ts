@@ -13,6 +13,7 @@ import  {CardComponent}from './card/card.component';
 import { FooterComponent } from './footer/footer.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { GuiaComponent } from './guia/guia.component';
+import { CotopaxiComponent } from './cotopaxi/cotopaxi.component';
 
 
 
@@ -26,7 +27,8 @@ import { GuiaComponent } from './guia/guia.component';
     HeaderUserComponent,
     CardComponent,
     FooterComponent,
-    GuiaComponent
+    GuiaComponent,
+    CotopaxiComponent
   
   ],
   imports: [
